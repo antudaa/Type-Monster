@@ -100,6 +100,7 @@ const gameOver = () => {
 };
 
 const closeModal = () => {
+  resultModal.classList.remove("modal-center");
   modalBackground.classList.toggle("hidden");
   resultModal.classList.toggle("hidden");
 };
