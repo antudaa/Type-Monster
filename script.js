@@ -107,7 +107,7 @@ const start = () => {
   countdownOverlay.style.display = "flex";
 
   const startCountdown = setInterval(() => {
-
+    // Use Backtick to Create InnerHtml .
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
 
     // finished timer
