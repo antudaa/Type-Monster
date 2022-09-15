@@ -134,6 +134,13 @@ body {
   margin: 30px 0;
 }
 
+.blog-button{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  border-radius: 5px;
+}
+
 button {
   padding: 10px 20px;
   border: none;
