@@ -36,7 +36,7 @@ function displayHistory() {
   <div class="history-display">
   <h3>${test.questionText}</h3>
   <p>You took: <span class="bold">${Math.round(test.timeTaken)}</span> seconds</p>
-    <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
+  <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
   </div>
   `;
 
